@@ -4,8 +4,8 @@
 body{
     margin: 0;
     padding: 0;
-    overflow-y: hidden;
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
 }
 .video-cont{
     height: 100vh;
@@ -71,4 +71,21 @@ video{
 @keyframes anime-capture {
     0%{transform: scale(0.8);}
     100%{transform: scale(1);}
+}
+
+
+
+.timer-cont{
+    position: absolute;
+    top: 25rem;
+    left: 4rem;
+}
+.timer{
+    display: none;
+    color: #000000;
+    font-size: 2rem;  
+    border: 3px solid wheat;
+    background-color: #ae949477;
+    border-radius: 5px;
+    padding: 0 15px;
 }
